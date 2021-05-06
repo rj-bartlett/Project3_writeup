@@ -12,7 +12,7 @@ For validation, I did what was given in the script – finding the sum of the er
 -	Random Forest resulting population difference raster:
  ![Diff_sums random forest](https://user-images.githubusercontent.com/78227378/117355003-05209380-ae80-11eb-9bcb-ab568ef8cbf1.png)
 
--		A representation of the actual population distribution:
+-	A representation of the actual population distribution:
  ![pop_sum logisitic regression](https://user-images.githubusercontent.com/78227378/117355018-094cb100-ae80-11eb-8133-653067804ce7.png)
  
 Since the estimates of both models were very similar, the resulting rasters showing the distribution of the population sums and difference were also similar and can be found below. Some of the reasons for variation could be the weights of the associated variables. But, there is a lake in the middle of Cambodia, marked by a big empty oval-ish shape towards the middle of the country. There are also many clearly defined paths along the right half of the country, which turned out to be rivers. At the confluence of the three largest rivers is where the major hub is with a majority of the population. The actual city appears to be underestimated because it is a very dense population that isn’t spread out very much. Interestingly, the immediate surrounding area was overestimated which could be do the excess light pollution from the city. A final feature that is worth mentioning is the speckled area in the top-left section of Cambodia. This area is not covered by many trees or greenery, so there are patches of underestimation. Strangely, it appears that the regions of Cambodia that had the most variation were the non-mountainous regions, ie where the rivers are and the top left area of the map. 
